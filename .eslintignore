@@ -1,0 +1,23 @@
+# Ignore artifacts:
+
+.expo/**
+assets/**
+ios/**
+android/**
+node_modules/**
+package-lock.json
+package.json
+.prettierrc
+.eslintrc.js
+.prettierignore
+.gitignore
+app.json
+tsconfig.json
+babel.config.js
+
+# Don't ignore App.tsx and files in the 'src' directory
+!App.tsx
+!src/**/*.ts
+!src/**/*.tsx
+!src/**/*.js
+!src/**/*.jsx

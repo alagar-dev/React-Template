@@ -1,0 +1,14 @@
+# Ignore artifacts:
+
+.expo/**
+assets/**
+ios/**
+android/**
+node_modules/**
+package-lock.json
+package.json
+.prettierrc
+.gitignore
+app.json
+babel.config.js
+
