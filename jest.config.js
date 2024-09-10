@@ -1,6 +1,6 @@
 module.exports = {
-  preset: 'react-native',
-  transformIgnorePatterns: [
-    'node_modules/(?!((jest-)?react-native|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@sentry/react-native|native-base|react-native-svg)',
-  ],
+  preset: 'jest-expo',
+  setupFilesAfterEnv: ['@testing-library/react-native/extend-expect'],
+  moduleFileExtensions: ['ts', 'mjs', 'cjs', 'tsx', 'js', 'jsx', 'json', 'node'],
+  testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.[jt]sx?$',
 };
